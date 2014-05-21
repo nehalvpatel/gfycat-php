@@ -10,7 +10,7 @@ class Core
             $identifier = Utilities::getRandomText();
         }
         
-        $response = file_get_contents("http://upload.gfycat.com/transcode/" . $identifier . "?fetchUrl=" . $url);
+        $response = file_get_contents("http://upload.gfycat.com/transcode/" . $identifier . "?fetchUrl=" . urlencode($url));
         
         return Utilities::validateJSON($response, true);
     }
