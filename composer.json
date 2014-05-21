@@ -1,0 +1,33 @@
+{
+    "name": "nehalvpatel/gfycat-php",
+    "description": "A PHP interface to the Gfycat API.",
+    "keywords": ["gfycat", "gif", "gfy"],
+    "homepage": "https://github.com/nehalvpatel/gfycat-php",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nehal Patel",
+            "email": "nehal@itspatel.com",
+            "homepage": "http://www.itspatel.com",
+            "role": "Developer"
+        }
+    ],
+
+    "minimum-stability": "stable",
+
+    "require": {
+        "php": ">=5.4.0"
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*",
+        "squizlabs/php_codesniffer": "1.*"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "Gfycat\\": "src/"
+        }
+    }
+}
