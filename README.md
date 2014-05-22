@@ -7,9 +7,9 @@ A PHP interface to the Gfycat API.
 - PHP 5.4 and up
 
 ### Getting Started
-1. Install composer
-2. Add the [package](https://packagist.org/packages/nehalvpatel/synapse) to your composer.json
-3. Run composer
+1. Install [composer](https://getcomposer.org/download/).
+2. Add the [package](https://packagist.org/packages/nehalvpatel/synapse) to your `composer.json`.
+3. Run composer.
 
 ### Example
 ```php
@@ -24,3 +24,6 @@ A PHP interface to the Gfycat API.
   // check if a URL has already been converted
   print_r(\Gfycat\Core::check("http://i.imgur.com/jmLX0nv.gif"));
 ```
+
+### Contribution
+Run tests before creating a pull requet: `vendor/bin/phpunit`.
