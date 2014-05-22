@@ -8,7 +8,7 @@ A PHP interface to the Gfycat API.
 
 ### Getting Started
 1. Install [composer](https://getcomposer.org/download/).
-2. Add the [package](https://packagist.org/packages/nehalvpatel/synapse) to your `composer.json`.
+2. Add the [package](https://packagist.org/packages/nehalvpatel/gfycat-php) to your `composer.json`.
 3. Run composer.
 
 ### Example
@@ -26,4 +26,4 @@ A PHP interface to the Gfycat API.
 ```
 
 ### Contribution
-Run tests before creating a pull requet: `vendor/bin/phpunit`.
+Run tests before creating a pull request: `vendor/bin/phpunit`.
