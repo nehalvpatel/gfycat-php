@@ -8,7 +8,7 @@ Installation
 
 Add the package to your composer file:
 ```bash
-composer require nehalvpatel/gfycat-php "2.*"
+composer require nehalvpatel/gfycat-php "^2.0"
 composer update
 ```
 
