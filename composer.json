@@ -8,8 +8,8 @@
     "authors": [
         {
             "name": "Nehal Patel",
-            "email": "nehal@itspatel.com",
-            "homepage": "http://www.itspatel.com",
+            "email": "nehal.patel@me.com",
+            "homepage": "http://www.nehalpatel.me",
             "role": "Developer"
         }
     ],
@@ -17,7 +17,7 @@
     "minimum-stability": "stable",
 
     "require": {
-        "php": ">=5.4.0"
+        "guzzlehttp/guzzle": "^6.0"
     },
 
     "require-dev": {
@@ -26,8 +26,8 @@
     },
 
     "autoload": {
-        "psr-0": {
-            "Gfycat\\": "src/"
+        "psr-4": {
+            "nehalvpatel\\": "src/"
         }
     }
 }
